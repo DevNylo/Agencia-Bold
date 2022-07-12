@@ -20,9 +20,10 @@ body{
 header.hero-bkg{
     width: 100%;
     height: 800px;
+    display: flex;
+    flex-direction: column;
 
     margin-top: 20px;
-    position: absolute;
 }
 
 header nav{
@@ -42,7 +43,7 @@ header nav ul{
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
-    gap: 50px;
+    gap: 30px;
 }
 
 header nav ul li{
@@ -78,10 +79,33 @@ section.slogan{
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
-    line-height: 0px;
+    margin-bottom: -35px;
 
     color: #ffffff;
 }
 .slogan > h3 > strong{
     font-size: 2rem;
+}
+
+.slogan p{
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+}
+
+.slogan img{
+    width: 65%;
+}
+
+picture{
+    margin: 0 auto;
+    width: 80vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+picture > img{
+    width: 16vw;
 }
