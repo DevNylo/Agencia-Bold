@@ -1,2 +1,3 @@
 # Agencia-Bold
- Primeiro projeto, site de agência bancaria
+
+Projeto, agência bancaria com com a tríade HTML, CSS, JS.
