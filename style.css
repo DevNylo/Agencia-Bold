@@ -119,3 +119,26 @@ picture{
 picture > img{
     width: 16vw;
 }
+
+section.pq-nos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.pq-nos h1{
+    font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    color: #040404;
+}
+
+section.pq-nos p{
+    text-align: center;
+    font-size: 0.8rem;
+
+    color: #7E92AC;
+}
