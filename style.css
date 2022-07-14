@@ -158,6 +158,7 @@ section.pq-nos > p{
 .cards .cards-item{
     flex-wrap: wrap;
     margin-top: 100px;
+    margin-bottom: 100px;
     width: 25vw;
 
     box-shadow: 0px 0px 10px 0px #0000005b;
@@ -178,4 +179,45 @@ section.pq-nos > p{
     padding: 20px;
 
     color: #7E92AC;
+}
+
+.banner{
+    width: 100%;
+
+    background-image: url(image/banner-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 1.8rem;
+    padding: 50px 0px 20px;
+
+    color: #ffffff;
+
+}
+
+.banner p{
+    font-size: 0.8rem;
+
+    color: #ffffff;
+}
+
+.banner button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-weight: bold;
+    font-size: 0.8rem;
+
+    color: #0F3FD3;
+    background-color: #FFDD33;
+    
 }
