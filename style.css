@@ -231,3 +231,12 @@ section.pq-nos > p{
     flex-direction: row;
     align-items: center;
 }
+
+.beneficios > div{
+    width: 50%;
+}
+
+.beneficios > div > h1{
+    font-size: 2rem;
+}
+
