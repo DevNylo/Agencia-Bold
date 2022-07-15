@@ -230,6 +230,7 @@ section.pq-nos > p{
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -238,7 +239,7 @@ section.pq-nos > p{
 }
 
 .beneficios > div > h1{
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .beneficios > div > p{
@@ -249,7 +250,7 @@ section.pq-nos > p{
     flex-direction: row;
     align-items: center;
 
-    width: 50%;
+    width: 65%;
 }
 
 .ben-itens img{
@@ -258,8 +259,23 @@ section.pq-nos > p{
 
 .ben-itens p{
     font-size: .7rem;
+
+    color: #7E92AC;
 }
 
 div.pc-graf img{
     max-width: 100%;
+}
+
+.beneficios div button{
+    padding: 10px 20px;
+    font-size: .8rem;
+    border: none;
+    cursor: pointer;
+    margin: 30px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+
+    color: #FBFCFE;
+    background-color: #0F3FD3;
 }
