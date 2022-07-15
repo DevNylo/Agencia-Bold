@@ -230,6 +230,7 @@ section.pq-nos > p{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .beneficios > div{
@@ -240,3 +241,25 @@ section.pq-nos > p{
     font-size: 2rem;
 }
 
+.beneficios > div > p{
+    
+}
+.ben-itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 50%;
+}
+
+.ben-itens img{
+    margin: 0px -10px -15px -30px;
+}
+
+.ben-itens p{
+    font-size: .7rem;
+}
+
+div.pc-graf img{
+    max-width: 100%;
+}
