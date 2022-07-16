@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+    picture{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    picture img{
+        width: 100%;
+    }
+
+    section.pq-nos p{
+        margin-bottom: 200px;
+    }
+
+    .pq-nos .cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .cards .cards-item{
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .cards .cards-item p{
+        margin-bottom: 0px;
+    }
+
+    .beneficios{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .beneficios div{
+        text-align: center;
+        width: 100%;
+    }
+
+    .beneficios div > h1{
+        padding-top: 100px;
+    }
+
+
+
+
+}
