@@ -1,12 +1,11 @@
 @media only screen and (max-width: 768px) {
     picture{
-        display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 70%;
     }
 
     picture img{
-        width: 100%;
+        width: 70%;
     }
 
     section.pq-nos p{
@@ -14,7 +13,6 @@
     }
 
     .pq-nos .cards{
-        display: flex;
         flex-direction: column;
         margin: 0 auto;
         width: 90%;
@@ -32,7 +30,6 @@
 
     .beneficios{
         width: 90%;
-        display: flex;
         flex-direction: column;
         margin: 0 auto;
     }
