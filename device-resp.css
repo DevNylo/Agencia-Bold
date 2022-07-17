@@ -1,4 +1,65 @@
 @media only screen and (max-width: 768px) {
+
+    .menu{
+        display: block;
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        background-color: blue;
+        text-align: center;
+    }
+
+    .label-menu{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        padding-block: 1rem;
+    }
+
+    .hamburger{
+        border-top: 0.2rem solid;
+        width: 1.5rem;
+    }
+
+    .hamburger::before,
+    .hamburger::after {
+        content: "";
+        display: block;
+        width: 1.5rem;
+        height: 0.2rem;
+        background: currentColor;
+        margin-top: 0.3rem;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav ul li{
+        display: block;
+        position: absolute;
+
+        top: 4rem;
+        
+    }
+
+    nav ul li a{
+        margin-top: 20px;
+    }
+
+    nav img{
+        width: 90%;
+        float: left;
+    }
+
+    div.items-menu-mobile{
+        display: block;
+        z-index: 1000;
+    }
+
     header.hero-bkg{
         height: 790px;
     }
