@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     padding: 0;
     margin: 0;
@@ -423,4 +425,11 @@ footer h1 a{
 footer h1 a:hover{
     text-decoration: solid;
     color: #040404;
+}
+
+#to-the-top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
 }
