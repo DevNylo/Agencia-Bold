@@ -242,9 +242,7 @@ section.pq-nos > p{
     font-size: 2.3rem;
 }
 
-.beneficios > div > p{
-    
-}
+
 .ben-itens{
     display: flex;
     flex-direction: row;
@@ -327,3 +325,59 @@ div.pc-graf img{
 
     box-shadow: 0px 20px 50px #70707016;
 }
+
+.formulario{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formulario h1{
+    margin: 100px 0px 20px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.formulario form{
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form input, textarea{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+    border: 1px solid #7E92AC;
+    background-color: #FCFDFF;
+    color: #7E92AC;
+}
+
+.formulario textarea{
+    height: 200px;
+    font-size: .8rem;
+}
+
+.formulario form input, textarea::placeholder{
+    font-size: .7rem;
+    font-weight: bold;
+
+}
+
+.formulario form > button{
+    background-color: #0F3FD3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+    font-size: .8rem;
+    font-weight: bold;
+    color: #FBFCFE;
+    padding: 10px;
+
+}
+
