@@ -43,7 +43,26 @@
         padding-top: 100px;
     }
 
+    .depoimentos-items{
+        display: block;
+        width: 100%;
+    }
 
+    .depoimentos-items .item-slider1{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .depoimentos-items .item-slider2{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .depoimentos-items .item-slider3{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
 
 
 }

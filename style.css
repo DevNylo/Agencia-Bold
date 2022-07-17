@@ -301,8 +301,8 @@ div.pc-graf img{
 }
 
 .depoimentos-items{
-    width: 100%;
     text-align: center;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
