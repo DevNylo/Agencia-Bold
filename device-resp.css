@@ -1,4 +1,8 @@
 @media only screen and (max-width: 768px) {
+    header.hero-bkg{
+        height: 740px;
+    }
+
     picture{
         flex-direction: column;
         width: 70%;
@@ -35,12 +39,20 @@
     }
 
     .beneficios div{
-        text-align: center;
         width: 100%;
     }
 
     .beneficios div > h1{
+        text-align: center;
         padding-top: 100px;
+    }
+
+    .ben-itens p{
+        font-size: .7rem;
+    }
+
+    .beneficios div > button{
+        width: 100%;
     }
 
     .depoimentos-items{
@@ -62,6 +74,10 @@
         margin-top: 30px;
         width: 100%;
         text-align: center;
+    }
+
+    .formulario form{
+        width: 100%;
     }
 
 
