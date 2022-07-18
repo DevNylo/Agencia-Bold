@@ -14,40 +14,45 @@
 body{
     width: 100%;
 
-    background-image: url(image/hero-bkg.svg);
-    background-position: top center;
-    background-repeat: no-repeat;
+    background-color: #0F3FD3;
 }
 
-.label-menu, .checkbox{
-    display: none;
-}
 
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
-.menu{
-    
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+}
+
+.nav-list{
     list-style: none;
     display: flex;
-    gap: 1rem;
-
 }
 
-.menu a{
-    display: block;
+.nav-list {
+    gap: 30px;
     font-weight: bold;
-    font-size: .8rem;
-    text-decoration: none;
-    padding: 1rem;
+    color: #FBFCFE;
+}
 
+
+.nav-list li a {
+    padding: 10px;
+    gap: 30px;
+    font-weight: bold;
     color: #FBFCFE;
 
+    text-decoration: none;
 }
+
+
 
 main.hero-bkg{
     width: 100%;
@@ -55,6 +60,17 @@ main.hero-bkg{
 
 }
 
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
 
 
 section.slogan{
@@ -71,6 +87,7 @@ section.slogan{
     margin-bottom: -35px;
 
     color: #ffffff;
+
 }
 .slogan > h3 > strong{
     font-size: 2.5rem;
