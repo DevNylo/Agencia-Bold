@@ -5,20 +5,26 @@
 
     .nav-list{
         position: absolute;
-        top: 8vh;
+        top: 20vh;
         right: 0;
-        width: 50vw;
-        height: 50vh;
+        width: 100vw;
+        height: 100vh;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
+        background-color: rgb(236, 236, 28);
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 1px;
+        padding: 10px;
 
     }
 
     .nav-list li{
         margin-left: 0;
+        background-color: #0F3FD3;
+        border-radius: 5px;
     }
 
     .mobile-menu {
