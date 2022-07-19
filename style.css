@@ -18,17 +18,10 @@ body{
 }
 
 
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;    
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 4rem;
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .nav-list{
@@ -36,28 +29,9 @@ nav{
     display: flex;
 }
 
-.nav-list {
-    gap: 30px;
-    font-weight: bold;
-    color: #FBFCFE;
-}
-
-
-.nav-list li a {
-    padding: 10px;
-    gap: 30px;
-    font-weight: bold;
-    color: #FBFCFE;
-
-    text-decoration: none;
-}
-
-
-
-main.hero-bkg{
-    width: 100%;
-    height: 900px;
-
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
 }
 
 .mobile-menu{
@@ -70,7 +44,51 @@ main.hero-bkg{
     height: 2px;
     background: #fff;
     margin: 8px;
+    transition: 0.3s;
 }
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    height: 10vh;
+}
+
+.nav-list.active{
+    transform: translateX(0);
+
+}
+
+@keyframes navLinkFade{
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1{
+    transform: rotate(-45deg) translate(-8px, 8px);
+
+}
+
+.mobile-menu.active .line2{
+    opacity: 0;
+
+}
+
+.mobile-menu.active .line3{
+    transform: rotate(45deg) translate(-5px, -7px);
+    
+}
+
 
 
 section.slogan{
